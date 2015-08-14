@@ -188,7 +188,7 @@ $(function(){
 
 	  <article class="m-widget-2">
         <header class="header">
-		  <h4 class="title"><i class="icon-user"></i>常用工具</h4>
+		  <h4 class="title"><i class="icon-user"></i>友情链接</h4>
 		  <div class="ctrl">
 		    <a class="btn"><i class="icon-chevron-up"></i></a>
 		  </div>
@@ -197,12 +197,20 @@ $(function(){
 		  <table class="m-table table-hover">
 			<tbody>
 			  <tr>
-				<td>地图</td>
-				<td><a href="http://ditu.baidu.com">ditu.baidu.com</a></td>
+			  	<td>中国政府网</td>
+				<td><a href="http://www.gov.cn">中国政府网</a></td>
+				</tr>
+			  <tr>
+				<td>中国质量网</td>
+				<td><a href="http://www.china315.org.cn">www.china315.org.cn</a></td>
 			  </tr>
 			  <tr>
-				<td>翻译</td>
-				<td><a href="http://translate.google.com">translate.google.com</a></td>
+				<td>中国消费网</td>
+				<td><a href="http://12365.ccn.com.cn">www.12365.ccn.com.cn</a></td>
+			  </tr>
+			  <tr>
+				<td>中国质量检验信息网</td>
+				<td><a href="http://www.caqi.org.cn">www.caqi.org.cn</a></td>
 			  </tr>
 			</tbody>
 		  </table>

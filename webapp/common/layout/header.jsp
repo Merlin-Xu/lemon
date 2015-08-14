@@ -11,7 +11,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a href="${ctx}/" class="brand">Mossle</a>
+          <a href="${ctx}/" class="brand">Inspect</a>
           <div class="nav-collapse collapse navbar-responsive-collapse">
             <ul class="nav">
               <li class="divider-vertical"></li>

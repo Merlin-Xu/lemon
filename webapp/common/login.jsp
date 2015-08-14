@@ -14,8 +14,8 @@
     <!-- start of header bar -->
     <div class="navbar navbar-inverse">
       <div class="navbar-inner">
-        <div class="container">
-          <a href="${scopePrefix}/" class="brand">Mossle</a>
+        <div class="container"
+          <a href="${scopePrefix}/" class="brand">Copyright 1.0</a>
         </div>
       </div><!-- /navbar-inner -->
     </div>

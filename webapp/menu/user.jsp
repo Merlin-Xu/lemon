@@ -19,7 +19,7 @@
 
 		<footer id="m-footer" class="text-center">
 		  <hr>
-		  &copy;Mossle
+		  &copy;Copyright
 		</footer>
       </aside>
       <!-- end of sidebar -->

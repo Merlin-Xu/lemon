@@ -18,7 +18,7 @@
         </div>
 		<footer id="m-footer" class="text-center">
 		  <hr>
-		  &copy;Mossle
+		  &copy;Copyright 1.0
 		</footer>
       </aside>
       <!-- end of sidebar -->

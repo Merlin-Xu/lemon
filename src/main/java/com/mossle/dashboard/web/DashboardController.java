@@ -6,7 +6,7 @@ import javax.annotation.Resource;
 
 import com.mossle.api.humantask.HumanTaskConnector;
 import com.mossle.api.humantask.HumanTaskDTO;
-
+import com.mossle.bpm.persistence.domain.BpmCategory;
 import com.mossle.bpm.persistence.domain.BpmProcess;
 import com.mossle.bpm.persistence.manager.BpmProcessManager;
 
@@ -45,7 +45,7 @@ public class DashboardController {
         List<HistoricProcessInstance> historicProcessInstances = processEngine
                 .getHistoryService().createHistoricProcessInstanceQuery()
                 .startedBy(userId).unfinished().list();
-        List<BpmProcess> bpmProcesses = bpmProcessManager.getAll();
+        List<BpmProcess> bpmProcesses = bpmProcessManager.find("from BpmProcess where CATEGORY_ID = 1");
         List<CmsArticle> cmsArticles = cmsArticleManager.getAll();
         model.addAttribute("personalTasks",
                 humanTaskConnector.findPersonalTasks(userId, 1, 10));

@@ -139,7 +139,7 @@ $(function(){
 		  </div>
 		</header>
         <div class="content content-inner">
-		  <marquee direction="up" scrollamount="2" >
+		  <marquee direction="down" scrollamount="2" >
 		  <c:forEach items="${cmsArticles}" var="item">
 		    <div>
 			  <h4><a href="${scopePrefix}/cms/cms-article-view.do?id=${item.id}">${item.title}</a></h4>
@@ -186,34 +186,15 @@ $(function(){
 		</div>
 	  </article>
 
-	  <article class="m-widget-2">
+	   <article class="m-widget-2">
         <header class="header">
-		  <h4 class="title"><i class="icon-user"></i>友情链接</h4>
+		  <h4 class="title"><i class="icon-user"></i>商品展示</h4>
 		  <div class="ctrl">
 		    <a class="btn"><i class="icon-chevron-up"></i></a>
 		  </div>
 		</header>
-        <div class="content">
-		  <table class="m-table table-hover">
-			<tbody>
-			  <tr>
-			  	<td>中国政府网</td>
-				<td><a href="http://www.gov.cn">中国政府网</a></td>
-				</tr>
-			  <tr>
-				<td>中国质量网</td>
-				<td><a href="http://www.china315.org.cn">www.china315.org.cn</a></td>
-			  </tr>
-			  <tr>
-				<td>中国消费网</td>
-				<td><a href="http://12365.ccn.com.cn">www.12365.ccn.com.cn</a></td>
-			  </tr>
-			  <tr>
-				<td>中国质量检验信息网</td>
-				<td><a href="http://www.caqi.org.cn">www.caqi.org.cn</a></td>
-			  </tr>
-			</tbody>
-		  </table>
+        <div class="content content-inner">
+		  <!-- <iframe src="http://m.weather.com.cn/m/pn12/weather.htm" style="border:0px"></iframe> -->
 		</div>
 	  </article>
 
@@ -250,17 +231,36 @@ $(function(){
 		</div>
 	  </article>
 
-	  <article class="m-widget-2">
+		<article class="m-widget-2">
         <header class="header">
-		  <h4 class="title"><i class="icon-user"></i>天气预报</h4>
+		  <h4 class="title"><i class="icon-user"></i>友情链接</h4>
 		  <div class="ctrl">
 		    <a class="btn"><i class="icon-chevron-up"></i></a>
 		  </div>
 		</header>
-        <div class="content content-inner">
-		  <iframe src="http://m.weather.com.cn/m/pn12/weather.htm" style="border:0px"></iframe>
+        <div class="content">
+		  <table class="m-table table-hover">
+			<tbody>
+			  <tr>
+			  	<td>中国政府网</td>
+				<td><a href="http://www.gov.cn">中国政府网</a></td>
+				</tr>
+			  <tr>
+				<td>中国质量网</td>
+				<td><a href="http://www.china315.org.cn">www.china315.org.cn</a></td>
+			  </tr>
+			  <tr>
+				<td>中国消费网</td>
+				<td><a href="http://12365.ccn.com.cn">www.12365.ccn.com.cn</a></td>
+			  </tr>
+			  <tr>
+				<td>中国质量检验信息网</td>
+				<td><a href="http://www.caqi.org.cn">www.caqi.org.cn</a></td>
+			  </tr>
+			</tbody>
+		  </table>
 		</div>
-	  </article>
+	  </article>	 
 
 
 	  </div>

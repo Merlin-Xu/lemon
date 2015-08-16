@@ -15,7 +15,7 @@
     <div class="navbar navbar-inverse">
       <div class="navbar-inner">
         <div class="container"
-          <a href="${scopePrefix}/" class="brand">Copyright 1.0</a>
+          <a href="${scopePrefix}/" class="brand">质量监督管理平台</a>
         </div>
       </div><!-- /navbar-inner -->
     </div>

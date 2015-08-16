@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="accordion-group">
+      <%--   <div class="accordion-group">
           <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#m-sidebar" href="#collapse-bpm-delegate">
               <i class="icon-user"></i>
@@ -50,7 +50,7 @@
 			  <li><a href="${scopePrefix}/bpm/delegate-listMyDelegateInfos.do"><i class="icon-user"></i>自动委托规则</a></li>
             </ul>
           </div>
-        </div>
+        </div> --%>
 
         <div class="accordion-group">
           <div class="accordion-heading">
